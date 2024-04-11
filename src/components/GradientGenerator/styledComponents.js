@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   height: 100vh;
   background-size: cover;
-  background: linear-gradient(${props => props.gradientDirection});
+  background-image: linear-gradient(${props => props.gradientDirection});
 
   display: flex;
   flex-direction: column;
